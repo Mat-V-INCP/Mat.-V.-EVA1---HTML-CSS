@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Retro Space Website</title>
+</head>
+<body>
+
+  <!-- Main layout wrapper -->
+  <div class="desktop vertical-layout">
+
+    <!-- Explorador Window -->
+    <div class="window pinned-window">
+      <div class="window-header">Explorador</div>
+      <div class="window-content-whitebg">
+        <!-- Icono Inicio -->
+        <div class="icon-container">
+          <a href="1_index.html" class="icon-link">
+            <img src="imgs/otros/Drvspace7_32x32_4.png" class="icon-image" />
+            <span class="icon-label">Inicio</span>
+          </a>
+        </div>
+
+        <!-- Icono Computadoras -->
+        <div class="icon-container">
+          <a href="2_computadoras.html" class="icon-link">
+            <img src="imgs/computadores/Computer_32x32_4.png" class="icon-image" />
+            <span class="icon-label">Computadoras</span>
+          </a>
+        </div>
+
+        <!-- Icono Perifericos -->
+        <div class="icon-container">
+          <a href="3_perifericos.html" class="icon-link">
+            <img src="imgs/perifericos/KeyboardMouse_32x32_4.png" class="icon-image" />
+            <span class="icon-label">Perifericos</span>
+          </a>
+        </div>
+
+        <!-- Icono Softwares -->
+        <div class="icon-container">
+          <a href="4_softwares.html" class="icon-link">
+            <img src="imgs/softwares/Brush_32x32_4.png" class="icon-image" />
+            <span class="icon-label">Softwares</span>
+          </a>
+        </div>
+
+        <!-- Icono Juegos -->
+        <div class="icon-container">
+          <a href="5_juegos.html" class="icon-link">
+            <img src="imgs/juegos/Joy102_48x48_4.png" class="icon-image" />
+            <span class="icon-label">Juegos</span>
+          </a>
+        </div>
+
+        <!-- Icono Creditos -->
+        <div class="icon-container">
+          <a href="6_creditos.html" class="icon-link">
+            <img src="imgs/creditos/Awfxcg321305_32x32_4.png" class="icon-image" />
+            <span class="icon-label">Créditos</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Window 1 -->
+    <div class="window floating-window">
+      <div class="window-header">Netscape Navigator</div>
+      <div class="window-content">
+        <h3 class="window-title">Navegador Web Netscape Navigator (1994)</h3>
+        <p class="window-text">Lanzado el 15 de diciembre de 1994, Netscape Navigator fue uno de los primeros navegadores web gráficos y desempeñó un papel crucial en la popularización de Internet. 
+            Ofrecía una interfaz amigable y funciones innovadoras para la época, 
+            como la capacidad de visualizar imágenes en línea con el texto. 
+            Su lanzamiento marcó el inicio de la primera "guerra de navegadores" contra Internet Explorer de Microsoft. 
+            Aunque eventualmente perdió cuota de mercado, sentó las bases para el desarrollo de navegadores modernos. 
+            Netscape también introdujo JavaScript, un lenguaje de programación clave para el desarrollo web.</p>
+        <img src="imgs/softwares/netscape1.PNG" class="window-image" />
+        <p class="window-credit">Credit: Imagen Propia - Mat. V.</p>
+      </div>
+    </div>
+
+    <!-- Window 2 -->
+    <div class="window floating-window">
+      <div class="window-header"> Microsoft Windows 95</div>
+      <div class="window-content">
+        <h3 class="window-title">Sistema Operativo Microsoft Windows 95 (1995)</h3>
+        <p class="window-text">Lanzado el 24 de agosto de 1995, Windows 95 fue un sistema operativo que 
+            representó un salto significativo en la informática personal. 
+            Introdujo una interfaz de usuario gráfica con el icónico botón de "Inicio" y la barra de tareas, facilitando la navegación y 
+            el acceso a aplicaciones. Windows 95 también incorporó soporte mejorado para nombres de archivo largos y capacidades multitarea. 
+            Su lanzamiento estuvo acompañado de una campaña de marketing masiva, consolidando a Microsoft como líder en sistemas operativos. 
+            Este sistema sentó las bases para futuras versiones de Windows y transformó la experiencia informática para los usuarios domésticos y empresariales.</p>
+        <img src="imgs/softwares/windows95.png" class="window-image" />
+        <p class="window-credit">Credit: Imagen Propia - Mat. V.</p>
+      </div>
+    </div>
+
+    <!-- Window 3 -->
+    <div class="window floating-window">
+      <div class="window-header">Winamp</div>
+      <div class="window-content">
+        <h3 class="window-title">Reproductor multimedia Winamp (1997)</h3>
+        <p class="window-text">Winamp, lanzado el 21 de abril de 1997, revolucionó la forma en que las personas reproducían archivos de audio en sus computadoras. 
+            Este reproductor multimedia era conocido por su interfaz personalizable y su soporte para una amplia variedad de formatos de audio. 
+            Permitía a los usuarios crear listas de reproducción y aplicar "skins" para cambiar su apariencia. 
+            Winamp se convirtió rápidamente en un favorito entre los entusiastas de la música digital. 
+            Su popularidad ayudó a establecer el estándar para los reproductores multimedia en la era del MP3.</p>
+        <img src="imgs/softwares/winamp1.PNG" class="window-image" />
+        <p class="window-credit">Credit: Imagen Propia - Mat. V.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Taskbar -->
+  <div class="taskbar">
+    <a href="#" class="start-button">
+      <img src="imgs/otros/inacap_logo_small.png" alt="Start" style="height: 20px;" />
+    </a>
+    <div class="taskbar-content">
+      <div class="text-carousel">
+        <div class="carousel-item">¡Una mirada al pasado!</div>
+        <div class="carousel-item">Prototipo educativo - INACAP 2025</div>
+        <div class="carousel-item">Haz click en "Inacap" para acceder al sitio</div>
+      </div>
+    </div>
+    <div class="taskbar-clock" id="live-clock" style="height: 25px;">
+      12:00 PM
+    </div>
+  </div>
+
+</body>
+</html>
