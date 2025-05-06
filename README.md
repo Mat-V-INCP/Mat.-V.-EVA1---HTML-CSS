@@ -1,3 +1,5 @@
 # Mat.-V.-EVA1---HTML-CSS
 
-# Sitio Web usando principalmente HTML y CSS. EVA1 - Unidad 1, Inacap.
+# Sitio Web usando HTML, CSS, JS. EVA2 - Unidad 2, Inacap.
+
+- Añadido sección "Extras" con uso de JS para EVA2
