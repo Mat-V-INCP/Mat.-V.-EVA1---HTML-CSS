@@ -60,7 +60,24 @@ body {
   border-color: #808080 #FFFFFF #FFFFFF #808080;
   flex-grow: 1;
   min-height: 100px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden; /* <-- NUEVO */
+}
+
+/* NUEVO */
+/* Limita ancho de inputs y text area dentro del formulario */
+.window-content form input,
+.window-content form textarea {
+  max-width: 95%;
+  box-sizing: border-box;
+  overflow-x: hidden !important; /* !important va a priorizar el uso de este codigo */
+}
+
+/* NUEVO */
+/* Evitar que el textarea pueda ser redimensionado */
+#parrafoVentana {
+  resize: none;
+  height: 150px;
 }
 
 .window-content-whitebg {
@@ -90,7 +107,7 @@ body {
   display: block;
   padding: 2px;
 }
-
+  
 .icon-image {
   width: 32px;
   height: 32px;
@@ -325,6 +342,9 @@ body {
 
   .window-text {
     font-size: 14px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-line;
   }
 
   .taskbar {
